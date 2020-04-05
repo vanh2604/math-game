@@ -1,0 +1,46 @@
+.container {
+  height: 500px;
+  width: 400px;
+  border: 1px solid black;
+}
+.point {
+  float: right;
+  margin-right: 10px;
+}
+.quiz {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#true {
+  font-size: 50px;
+  width: 20%;
+  background-color: chartreuse;
+  margin-right: 15px;
+}
+#false {
+  font-size: 50px;
+  width: 20%;
+  background-color: #f14e4e;
+}
+
+.check {
+  text-align: center;
+}
+
+.mypoint {
+  font-size: 15px;
+}
+body {
+  font-family: "Comic Neue", cursive;
+}
+
+.wrap {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
